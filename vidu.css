@@ -1,0 +1,95 @@
+#header {
+  background-color: #39e4c2;
+  border: 1px solid #39e4c2;
+  padding: 20px;
+  text-align: center;
+}
+#header > div:nth-child(1) {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#menu ul {
+  font-size: 20px;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#menu ul::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#menu ul li {
+  float: left;
+  list-style-type: none;
+}
+
+#menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 20px;
+  color: white;
+}
+
+#menu ul li a:hover {
+  font-size: 50px;
+  background-color: #ddd;
+  color: black;
+}
+#menu ul li a:active {
+  color: chartreuse;
+}
+#menu ul li a:visited {
+  color: forestgreen;
+}
+#main::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#main #side {
+  font-size: 30px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  width: 30%;
+}
+
+#main #content {
+  font-size: 30px;
+  color: darkslategray;
+  display: inline-block;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  width: 70%;
+  background-image: url("https://photo-baomoi.bmcdn.me/w700_r16x9_sm/2023_04_30_65_45699468/727c056e74239d7dc432.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main #content h2 {
+  font-size: 50px;
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+#main #side img {
+  width: 80%;
+  border: 5px solid red;
+  border-radius: 50%;
+}
+
+#main #content p:last-child {
+  text-align: right;
+}
+
+#footer {
+  background-color: #ddd;
+  padding: 15px;
+  text-align: center;
+}
